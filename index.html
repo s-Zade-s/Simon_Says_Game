@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <div id="titleContainer">
+      <h1>Simon Says</h1>
+    </div>
+
+    <div id="livesContainer">
+      <h2>Lives: <span id="lives"></span></h2>
+    </div>
+
+
+    <div id="scoreContainer">
+      <h2>Score: <span id="score">0</span></h2>
+    </div>
+
+    <div id="gameContainer">
+      <div class="instructions"></div>
+      <div class="box" id="red"></div>
+      <div class="box" id="blue"></div>
+      <div class="box" id="green"></div>
+      <div class="box" id="yellow"></div>
+      <button id="startButton">Start Game</button>
+      <button id="resetButton">Reset Game</button>
+
+      <!-- <button id="nextButton">Next</button> -->
+    </div>
+
+    <div id="gameOver">
+      <h1>Game Over</h1>
+
+      <button id="playAgain">Play Again</button>
+    </div>
+    <div id="youWin">
+      <!-- <h1>You win</h1> -->
+      <button id="playAgain">Play Again</button>
+    </div>
+  </body>
+</html>

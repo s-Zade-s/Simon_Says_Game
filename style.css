@@ -1,0 +1,38 @@
+/* Box styling */
+
+.box {
+  height: 50px;
+  width: 50px;
+}
+
+#red {
+  border: solid 1px red;
+  display: inline-block;
+}
+
+#blue {
+  border: solid 1px blue;
+  display: inline-block;
+}
+
+#green {
+  border: solid 1px green;
+  display: inline-block;
+}
+
+#yellow {
+  border: solid 1px yellow;
+  display: inline-block;
+}
+
+#gameOver {
+  display: none;
+}
+#youWin{
+  display: none;
+}
+
+
+#nextButton {
+  display: hidden;
+}
